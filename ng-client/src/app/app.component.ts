@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import * as cards from './cards.json';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,24 +8,29 @@ import * as cards from './cards.json';
 })
 export class AppComponent {
 
-  allCards: any[] = [];
+  allCards: any;
   myCards: any[] = [];
-  myCardWidth:number;
-  myCardHeight:number;
+  myCardWidth: number;
+  myCardHeight: number;
 
-  players:any[] = [];
-  playerWidth:number;
-  playerHeight:number;
+  players: any[] = [];
+  playerWidth: number;
+  playerHeight: number;
 
   constructor() {
     // Set players
     this.players = ['1', '2', '3'];
-    
+
     // Allocate cards
     this.allCards = JSON.parse(JSON.stringify(cards));
-    for (let i = 0; i < this.allCards.length; i++) {
-      if (this.allCards[i].id % 2 == 0) this.myCards.push(this.allCards[i]);
-      if(this.myCards.length>=7) break;
+    // tslint:disable-next-line:prefer-for-of
+    for (let i = 0; i < this.allCards.default.length; i++) {
+      if (this.allCards.default[i].id % 2 === 0) {
+        this.myCards.push(this.allCards.default[i]);
+      }
+      if (this.myCards.length >= 7) {
+        break;
+      }
     }
 
     // Set card size
