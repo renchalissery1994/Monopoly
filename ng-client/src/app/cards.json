@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Melbourne",
+    "color": "red",
+    "cash": 3,
+    "type": "property",
+    "total": 3
+  },
+  {
+    "id": 2,
+    "name": "Sydney",
+    "color": "blue",
+    "cash": 4,
+    "type": "property",
+    "total": 2
+  },
+  {
+    "id": 3,
+    "name": "Brisbane",
+    "color": "green",
+    "cash": 2,
+    "type": "property",
+    "total": 3
+  },
+  {
+    "id": 4,
+    "name": "Adelaid",
+    "color": "lightblue",
+    "cash": 2,
+    "type": "property",
+    "total": 2
+  },
+  {
+    "id": 5,
+    "name": "Perth",
+    "color": "black",
+    "cash": 1,
+    "type": "property",
+    "total": 4
+  },
+  {
+    "id": 6,
+    "name": "Darwin",
+    "color": "saddlebrown",
+    "cash": 1,
+    "type": "property",
+    "total": 2
+  },
+  {
+    "id": 7,
+    "name": "Hobart",
+    "color": "orange",
+    "cash": 2,
+    "type": "property",
+    "total": 3
+  },
+  {
+    "id": 8,
+    "name": "Uluru",
+    "color": "gold",
+    "cash": 2,
+    "type": "property",
+    "total": 3
+  },
+  {
+    "id": 9,
+    "name": "Cairns",
+    "color": "purple",
+    "cash": 2,
+    "type": "property",
+    "total": 3
+  },
+  {
+    "id": 10,
+    "name": "Debt Collector",
+    "color": "grey",
+    "cash": 2,
+    "type": "action",
+    "total": 3
+  },
+  {
+    "id": 11,
+    "name": "Just Say No",
+    "color": "grey",
+    "cash": 4,
+    "type": "action",
+    "total": 3
+  },
+  {
+    "id": 12,
+    "name": "Swap",
+    "color": "grey",
+    "cash": 2,
+    "type": "action",
+    "total": 4
+  },
+  {
+    "id": 13,
+    "name": "Steal",
+    "color": "grey",
+    "cash": 2,
+    "type": "action",
+    "total": 4
+  },
+  {
+    "id": 14,
+    "name": "It's my Birthday",
+    "color": "grey",
+    "cash": 2,
+    "type": "action",
+    "total": 4
+  },
+  {
+    "id": 15,
+    "name": "Multicolor rent",
+    "color": "grey",
+    "cash": 1,
+    "type": "action",
+    "total": 2
+  },
+  {
+    "id": 16,
+    "name": "Red/Yellow rent",
+    "color": "grey",
+    "cash": 1,
+    "type": "action",
+    "total": 2
+  },
+  {
+    "id": 17,
+    "name": "Purple/Orange rent",
+    "color": "grey",
+    "cash": 1,
+    "type": "action",
+    "total": 2
+  },
+  {
+    "id": 18,
+    "name": "Blue/Green rent",
+    "color": "grey",
+    "cash": 1,
+    "type": "action",
+    "total": 2
+  },
+  {
+    "id": 19,
+    "name": "Black/Light Blue rent",
+    "color": "grey",
+    "cash": 1,
+    "type": "action",
+    "total": 2
+  },
+  {
+    "id": 20,
+    "name": "Brown/Black rent",
+    "color": "grey",
+    "cash": 1,
+    "type": "action",
+    "total": 2
+  },
+  {
+    "id": 21,
+    "name": "Multicolor Wild card",
+    "color": "grey",
+    "cash": 1,
+    "type": "action",
+    "total": 2
+  },
+  {
+    "id": 22,
+    "name": "Deal breaker",
+    "color": "grey",
+    "cash": 4,
+    "type": "action",
+    "total": 2
+  },
+  {
+    "id": 23,
+    "name": "$1M",
+    "color": "pink",
+    "cash": 1,
+    "type": "cash",
+    "total": 3
+  },
+  {
+    "id": 24,
+    "name": "$2M",
+    "color": "pink",
+    "cash": 2,
+    "type": "cash",
+    "total": 3
+  },
+  {
+    "id": 25,
+    "name": "$3M",
+    "color": "pink",
+    "cash": 3,
+    "type": "cash",
+    "total": 3
+  },
+  {
+    "id": 26,
+    "name": "$4M",
+    "color": "pink",
+    "cash": 4,
+    "type": "cash",
+    "total": 3
+  },
+  {
+    "id": 27,
+    "name": "$5M",
+    "color": "pink",
+    "cash": 5,
+    "type": "cash",
+    "total": 2
+  },
+  {
+    "id": 28,
+    "name": "$10M",
+    "color": "pink",
+    "cash": 10,
+    "type": "cash",
+    "total": 1
+  },
+  {
+    "id": 29,
+    "name": "House",
+    "color": "grey",
+    "cash": 3,
+    "type": "add",
+    "total": 4
+  },
+  {
+    "id": 30,
+    "name": "Hotel",
+    "color": "grey",
+    "cash": 3,
+    "type": "add",
+    "total": 4
+  }
+]
